@@ -34,7 +34,7 @@ class MysqlDb:
 			self.conn.commit()
 			return rows
 		except Exception as e:
-			print("数据库错误{0}".format(e))
+			print("数据库错误了{0}".format(e))
 			self.conn.rollback()
 
 
