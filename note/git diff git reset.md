@@ -28,6 +28,11 @@ git diff --stat
 >  git reset --mixed (默认选项) 将head指向指定的提交，暂存区中的内容随之改变，工作区的内容不会改变
 >  git reset --hard 将head 指向指定的提交，暂存区和工作区的内容都会改变
 
+### 解决冲突
+
+* git diff --name --only  --diff-fliter=U
+
+`查找冲突的文件名称`
 
 
 
