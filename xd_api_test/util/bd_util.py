@@ -35,6 +35,7 @@ class MysqlDb:
 			return rows
 		except Exception as e:
 			print("数据库错误{0}".format(e))
+			print("master")
 			self.conn.rollback()
 
 
