@@ -1,0 +1,5 @@
+#!/bin/zsh
+# 复习一下shell脚本
+# by 白鸽 2020.12.20
+echo 'test shell !!!!'
+echo 'test shell 22222'
